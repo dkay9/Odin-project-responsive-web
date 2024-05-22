@@ -35,7 +35,7 @@
 }
 .headerParContainer h1{
     margin-top: 20px;
-    /* font-family: 'Play fair', sans-serif; */
+    font-family: "Playfair Display", serif;
 }
 .iconContainer{
     display: flex;
@@ -75,6 +75,9 @@ main{
     padding: 10px;
     box-shadow: 0 0 10px 0.5px rgb(67, 67, 67);
 }
+.projectDetailsWrapper{
+    font-family: 'Roboto', sans-serif;
+}
 .projectImg{
     width: 100%;
     height: 100%;
@@ -82,4 +85,44 @@ main{
 }
 .proSecTwo{
     margin-top: 8em;
+}
+footer{
+    margin-top: 50px;
+    display: flex;
+    padding: 70px;
+    background: #142f35;
+}
+.imgTwo{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    box-shadow: 0 0 10px 0.5px rgb(67, 67, 67);
+}
+footer > section{
+    display: flex;
+    justify-content: space-between;
+}
+.footerHeader{
+    font-size: 2rem;
+    color: #fff;
+    font-family: "Playfair Display", serif;
+    font-weight: lighter;
+}
+.footerPar,footer span{
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 10px;
+}
+.footerIcon{
+    color: #fff;
+
+}
+.fa-light{
+    max-width: 1.7em;
+    color: #fff;
+}
+.contactDiv{
+    display: flex;
+    align-items: center;
+    gap: 15px;
 }
